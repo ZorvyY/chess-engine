@@ -4,7 +4,6 @@ const Engine = require('node-uci').Engine
 
 const engine = new Engine('/home/zorvyyy/Documents/CompSci/Web/nodejs/piping/chess/stockfish')
 //for (var i = 0; i < 20; i++) {
-var x = 1;
 engine.chain()
     .init()
         .position(chess.fen())
